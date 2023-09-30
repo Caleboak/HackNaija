@@ -28,7 +28,7 @@ async function main() {
     try{
         await client.connect();
         await create_collection(client);
-        // await create_one_document(client, documents[0]);
+        // await create_one_document(client, {'name': 'John Doe', 'age': 30, 'class': 'six'});
         // await create_many_documents(client, documents);
         // await create_documents_in_documents(client, document_in_document);
         // await read_one_document_by_name(client, 'Caleb Oke');
